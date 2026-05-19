@@ -1,7 +1,7 @@
 class EijiiTui < Formula
   desc "eijii TUI and daemon - AI agent session manager"
   homepage "https://acyclic.eu/eijii"
-  version "1.0.10"
+  version "1.0.11"
   license "MIT"
 
   on_macos do
