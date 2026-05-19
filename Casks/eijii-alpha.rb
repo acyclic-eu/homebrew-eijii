@@ -9,4 +9,6 @@ cask "eijii-alpha" do
   homepage "https://acyclic.eu/eijii/download/alpha"
 
   app "eijii.app"
+
+  disable_quarantine: true
 end
