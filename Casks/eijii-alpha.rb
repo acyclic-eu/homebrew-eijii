@@ -10,5 +10,5 @@ cask "eijii-alpha" do
 
   app "eijii.app"
 
-  disable_quarantine: true
+  disable_quarantine true
 end
