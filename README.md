@@ -1,24 +1,23 @@
 # homebrew-eijii
 
-Homebrew tap for [eijii](https://acyclic.eu/eijii) - AI agent session manager.
+Release storage for eijii binaries (DMG, JAR).
 
-## Install
+This repository hosts GitHub releases for the eijii app. It is **not intended to be tapped directly** by users.
+
+## For users
+
+To install eijii, use the [homebrew-apps](https://github.com/acyclic-eu/homebrew-apps) tap:
 
 ```bash
-brew tap acyclic-eu/eijii
-
-# GUI app (macOS)
-brew install --cask eijii          # beta channel
-brew install --cask eijii-alpha    # alpha channel
-
-# TUI + daemon (CLI)
-brew install acyclic-eu/eijii/eijii-tui
+brew tap acyclic-eu/apps
+brew install --cask eijii
 ```
 
-## Channels
+## For maintainers
 
-| Cask/Formula | Channel | Notes |
-|---|---|---|
-| `eijii` | beta | latest named version |
-| `eijii-alpha` | alpha | latest build, no SHA check |
-| `eijii-tui` | beta | TUI binary + daemon jar |
+This repo stores release artifacts:
+- `alpha` tag: latest alpha build
+- `beta` tag: latest beta build  
+- `vX.Y.Z` tags: versioned releases
+
+Formulas in [homebrew-apps](https://github.com/acyclic-eu/homebrew-apps) point to these releases.
